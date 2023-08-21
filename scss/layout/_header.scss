@@ -24,9 +24,10 @@
   content: "";
   display: block;
   width: 0;
-  height: 1px;
-  background-color: $dark-grey-color;
+  height: 3px;
+  background-color: $light-peach-color;
   transition: 0.3s;
+  border-radius: 2px;
 }
 .header__link:hover::after {
   content: "";
