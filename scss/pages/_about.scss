@@ -1,0 +1,148 @@
+
+.about__start__container {
+  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 0 1.5rem  1.5rem 0;
+    object-fit: contain;
+  }
+}
+
+.main__end__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $white-color;
+  background-image: url("../../images/svg/main-hero-oval.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 0.5rem bottom;
+  background-color: $peach-color;
+  padding: 14rem 8.2rem 13rem 9.5rem;
+  border-radius: 1.5rem 0 0 1.5rem;
+  p {
+    margin-top: 3.2rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width:1085px) {
+  .about__start__container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    img{
+      
+      border-radius: 1.5rem 1.5rem 0 0;
+    }
+    .about__description {
+  border-radius: 0 0 1.5rem 1.5rem;
+
+}
+  }
+  
+}
+
+.about__content__container {
+  display: flex;
+  align-items: center;
+  margin-top: 1.6rem;
+  img{
+    width: 100%;
+    max-width: 476px;
+  }
+
+}
+.about__content__description {
+  padding: 10rem 9.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  background-color: #FDF3F0;
+  h2{
+    color: $peach-color;
+  }
+}
+@media screen and (max-width:1185px){
+  .about__content__description{
+    padding: 7rem 8rem;
+  }
+}
+@media screen and (max-width:1050px){
+  .about__content__description{
+    padding: 8rem 5rem;
+  }
+}
+@media screen and (max-width:1050px){
+  .about__content__description{
+    padding: 7rem 5rem;
+  }
+}
+@media screen and (max-width:980px){
+  .about__content__description{
+    padding: 6rem 4rem;
+  }
+}
+@media screen and (max-width:900px){
+  .about__content__description{
+    padding: 5rem 3rem;
+  }
+}
+@media screen and (max-width: 885px) {
+  .about__content__container{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+img{
+  width: 100%;
+  max-width: 1111px;
+
+}
+  }
+  .about__content-order{
+    img{
+      width: 100%;
+      max-width: 1111px;
+    }
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+
+
+
+.about__hero__container {
+  margin-top: 16rem;
+  margin-bottom: 16rem;
+}
+.about__hero__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17rem;
+  align-items: center;
+  justify-content: center;
+}
+.about__hero__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+
